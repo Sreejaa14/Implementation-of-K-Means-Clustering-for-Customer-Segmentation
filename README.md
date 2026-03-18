@@ -8,10 +8,15 @@ To write a program to implement the K Means Clustering for Customer Segmentation
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1.Load the customer dataset and select relevant features such as Annual Income and Spending Score
+
+2.Choose the number of clusters K and initialize K centroids randomly
+
+3.Assign each data point to the nearest centroid using Euclidean distance and update centroids by computing the mean of each cluster
+
+4.Repeat the assignment and update steps until centroids stop changing and display the final customer clusters
+
+ 
 
 ## Program:
 ```
@@ -63,8 +68,7 @@ plt.show()
 
 <img width="722" height="468" alt="download (3)" src="https://github.com/user-attachments/assets/9b0e7a57-988f-4935-9c62-29942241d53d" />
 
-<img width="722" height="468" alt="download (3)" src="https://github.com/user-attachments/assets/c138a012-11c6-438f-94a4-204438064e7b" />
-
+<img width="722" height="468" alt="download (3) - Copy" src="https://github.com/user-attachments/assets/4495fe44-832a-4e17-8746-819df7eb5e21" />
 
 ## Result:
 Thus the program to implement the K Means Clustering for Customer Segmentation is written and verified using python programming.
